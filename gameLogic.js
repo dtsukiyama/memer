@@ -233,10 +233,20 @@ function changeState(newState, selectedPersonalities) {
 }
 
 function startGame() {
+    // Hide the title, homescreen image, and start button
     document.querySelector('.title').style.display = 'none';
     document.getElementById('homescreen').style.display = 'none';
     document.querySelector('.start-button').style.display = 'none';
     document.getElementById('game-container').style.display = 'block';
+
+    // **Add this code to hide the reviews section**
+    var reviewsSection = document.getElementById('reviews-section');
+    if (reviewsSection) {
+        reviewsSection.style.display = 'none';
+    } else {
+        console.error('Reviews section not found.');
+    }
+
     renderState(currentState);
 }
 

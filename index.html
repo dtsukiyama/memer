@@ -110,6 +110,34 @@
             max-width: 100%;
             height: auto;
         }
+
+        /* Reviews Section Styles */
+        .reviews-section {
+            margin-top: 5vh;
+            padding: 10px;
+            background-color: #f8edeb;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .reviews-title {
+            font-size: 18px;
+            margin-bottom: 2vh;
+            color: #264653;
+        }
+
+        .review-quote {
+            font-size: 16px;
+            font-style: italic;
+            color: #6d6875;
+            margin-bottom: 1.5vh;
+        }
+
+        .review-author {
+            font-size: 14px;
+            color: #b5838d;
+            margin-bottom: 3vh;
+        }
     </style>
 </head>
 <body>
@@ -125,10 +153,32 @@
             </div>
             <div class="choices" id="choices"></div>
         </div>
+
+        <!-- Reviews Section -->
+        <div class="reviews-section" id="reviews-section">
+            <div class="reviews-title">Our users love us! See our reviews:</div>
+            <div class="review-quote">"I think someone got too much time on their hands if they're making this out of boredom lol."</div>
+            <div class="review-author">- Hiro B.</div>
+
+            <div class="review-quote">"Why are these questions and answers so stupid amd weird?"</div>
+            <div class="review-author">- Emily W.</div>
+
+            <div class="review-quote">"Somehow I was able to finish answering these questions."</div>
+            <div class="review-author">- Emily W.</div>
+
+            <div class="review-quote">"I'm still trying to comprehend what I am."</div>
+            <div class="review-author">- Emily W.</div>
+
+            <div class="review-quote">"I don't think I'll find any other personality quizzes as weird as this one."</div>
+            <div class="review-author">- Emily W.</div>
+        </div>
     </div>
-    
+
+    <!-- No inline script here to avoid conflicts -->
+    <!-- Ensure that gameLogic.js includes the necessary code -->
+
     <script src="gameLogic.js"></script>
-    
+
     <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
     <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
 </body>

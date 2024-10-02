@@ -1,2 +1,5 @@
-Mostly AI generated version of https://sophie006liu.github.io/vegetal/
+Inspired by https://sophie006liu.github.io/vegetal/
+
+Quiz scenario images generated with DallE.
+
 
